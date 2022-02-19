@@ -1,5 +1,4 @@
 
-
 @font-face {
 	font-family: "Outfit", sans-serif;
 	src: url("Outfit.woff");
@@ -7,58 +6,52 @@
 
 body {
 	font-family: "Outfit", sans-serif;
-	background-color: hsl(212, 45%, 89%);
+	background-color: #d6e2f0;
+	display: flex;
+	width: 1440px;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 
 .attribution { 
-	font-size: 11px; text-align: center; 
-	margin-top: 15px;
+	font-size: 0.8em; 
+	text-align: center; 
+	margin-top: 1em;
 }
 
 
  .attribution a { 
- 	color: hsl(228, 45%, 44%); 
+ 	color: #3e52a3; 
  }
 
-
-#container {
-	display: flex;
-	width: 1440px;
-	height: 825px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-}
-
-#cartao {
+.cartao {
 	width: 300px;
-	padding: 20px ;
+	padding: 1.2em ;
 	background: white;
-	margin: 0 auto;
-	border-radius: 20px;
+	border-radius: 1.2em;
 }
 
 .imagemQr img {
 	width: 300px;
-	border-radius: 10px;
+	border-radius: 0.7em;
 	
 }
 
 .sessaoDescricao {
-	padding: 0 25px;
+	padding: 0 1.3em;
 }
 
 .sessaoDescricao h2 {
-	font-size: 20px;
+	font-size: 1.3em;
 	text-align: center;
-
 }
 
 .sessaoDescricao p {
-	font-size: 15px;
-	color: hsl(220, 15%, 55%);
+	font-size: 0.9em;
+	color: #7b879d ;
 	text-align: center;
 	padding-bottom: 10px;
 }
