@@ -10,40 +10,54 @@ body {
 	background-color: hsl(212, 45%, 89%);
 }
 
+
+.attribution { 
+	font-size: 11px; text-align: center; 
+	margin-top: 15px;
+}
+
+
+ .attribution a { 
+ 	color: hsl(228, 45%, 44%); 
+ }
+
+
 #container {
 	display: flex;
 	width: 1440px;
-	height: 800px;
+	height: 825px;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	
 }
 
 #cartao {
-	width: 375px;
-	padding: 12px ;
+	width: 300px;
+	padding: 20px ;
 	background: white;
 	margin: 0 auto;
-	border-radius: 15px;
+	border-radius: 20px;
 }
 
 .imagemQr img {
-	width: 375px;
+	width: 300px;
 	border-radius: 10px;
 	
 }
 
 .sessaoDescricao {
-	padding: 0 15px;
+	padding: 0 25px;
 }
 
-.sessaoDescricao h3 {
+.sessaoDescricao h2 {
+	font-size: 20px;
 	text-align: center;
 
 }
 
 .sessaoDescricao p {
-	font-size: 13px;
+	font-size: 15px;
 	color: hsl(220, 15%, 55%);
 	text-align: center;
 	padding-bottom: 10px;
