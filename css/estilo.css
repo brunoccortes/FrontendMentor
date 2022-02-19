@@ -1,0 +1,50 @@
+
+
+@font-face {
+	font-family: "Outfit", sans-serif;
+	src: url("Outfit.woff");
+}
+
+body {
+	font-family: "Outfit", sans-serif;
+	background-color: hsl(212, 45%, 89%);
+}
+
+#container {
+	display: flex;
+	width: 1440px;
+	height: 600px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#cartao {
+	width: 260px;
+	padding: 12px ;
+	background: white;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.imagemQr img {
+	width: 260px;
+	border-radius: 10px;
+	
+}
+
+.sessaoDescricao {
+	padding: 0 15px;
+}
+
+.sessaoDescricao h3 {
+	text-align: center;
+
+}
+
+.sessaoDescricao p {
+	font-size: 13px;
+	color: hsl(220, 15%, 55%);
+	text-align: center;
+	padding-bottom: 10px;
+}
