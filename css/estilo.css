@@ -13,14 +13,14 @@ body {
 #container {
 	display: flex;
 	width: 1440px;
-	height: 600px;
+	height: 800px;
 	justify-content: center;
 	align-items: center;
 	
 }
 
 #cartao {
-	width: 260px;
+	width: 375px;
 	padding: 12px ;
 	background: white;
 	margin: 0 auto;
@@ -28,7 +28,7 @@ body {
 }
 
 .imagemQr img {
-	width: 260px;
+	width: 375px;
 	border-radius: 10px;
 	
 }
