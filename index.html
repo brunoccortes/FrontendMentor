@@ -1,54 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  
+  <!--  Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+  <!-- Estilo Customizado -->
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+
+  <main>
     
-    <title>Frontend Mentor | QR code component</title>
+    <div class="container">
+      
+      <section>
 
+        <div class="caixaImagem">
 
-      <!-- Normalize CSS -->
-      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+          <img src="images/image-equilibrium.jpg" alt="Imagem Equilibrium" class="imgPrincipal">
 
-      <!-- Estilo Customizado -->
-      <link rel="stylesheet" type="text/css" href="css/estilo.css">
+          <div class="sobreposicao"></div>
 
-   
-  </head>
-  <body>
-
-
-    <main>
-      <div class="cartao">
-
-        <section class="sessaoImagemQr">
-              
-          <picture class="imagemQr">
-            <img src="images/image-qr-code.png" alt="Código QR">
-          </picture>
-              
-        </section>
-
-        <section class="sessaoDescricao">
-          <h2>Improve your front-end <br> skills by building projects</h2>
-          <p>Scan the QR code to visit Frontend Mentor and take 
-          your code skills to <br> the next level</p>
-        </section>
-            
-      </div>
-
-         
-      <section class="attribution">
-
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Bruno Côrtes</a>.
+        </div>
 
       </section>
-    </main>
- 
+
+      <section class="sessaoDescricao">
+
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+
+      </section>
+
+       <section class="sessaoDetalhes">
+
+        <div class="valor">
+          <p>0.041 ETH</p>
+        </div>
+        <div class="expiracao">
+          <p>3 days left</p>
+        </div>
+      </section>
+
+      <section class="sessaoAutor">
+
+        <picture class="imagemAvatar">
+            <img src="images/image-avatar.png" alt="Imagem Avatar" width="35">
+        </picture>
+
+        <div class="autorTxt">
+          <p>Creation of <span>Jules Wyvern</span></p>
+        </div>
+       
+      </section>
+
+    </div>
 
 
-  </body>
+  </main>
+  
+  <div class="attribution">
+    <p>Challenge by </p><a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><p>.</p> 
+    <p>Coded by </p> <a href="#">Bruno Côrtes</a><p>.</p>
+  </div>
+</body>
 </html>
